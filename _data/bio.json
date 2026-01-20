@@ -24,6 +24,10 @@
     {
       "name": "Toolsets/OS",
       "keywords": [ "Windows", "Git/Github", "Visual Studio Code", "Eclipse" ]
+    },
+    {
+      "name": "Spoken Languages",
+      "keywords": [ "Vietnamese", "English" ]
     }
   ],
   "education": [
@@ -34,36 +38,44 @@
       "startDate": "2024-08",
       "endDate": "Present",
       "courses": [
-        "ICS 111", "ICS 211", "ICS 141", "ICS 241", "ICS 311", "ICS 314", "ICS 212"
+        "ICS 111, 141, 211, 212, 241, 311, 314"
       ]
+    }, 
+    {
+      "institution": "Radford High School",
+      "studyType": "High School Diploma",
+      "startDate": "2020-08",
+      "endDate": "2024-05",
     }
   ],
   "work": [
     {
-      "company": "UH Manoa (Change)",
-      "position": "Web Developer",
+      "company": "Game Development Club at University of Hawaii at Manoa",
+      "position": "Game Programmer",
       "website": "",
       "startDate": "2024-08",
       "endDate": "2025-04",
-      "summary": "Head of online presence for Ka Leo",
+      "summary": "Write programs for characters's mechanics",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Developed core gameplay mechanics and interactive scenes in Unity 2D.",
+        "Contributed to the releases of 2 games.",
+        "Worked within a programming team of over 10 people and collaborated with art and music teams of around 15 students total.",
+        "Implemented 40+ art and audio assets across all games."
       ]
     }
   ],
   "awards": [
     {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+      "title": "CNS Achievement Scholarship",
+      "date": "2025",
+      "awarder": "College of Natural Sciences at University of Hawaii at Manoa",
+      "summary": "Won $2,500 each semester for School Year 2025-2026."
     },
     {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "title": "Manoa Academic Merit Scholarship",
+      "date": "2024-2025",
+      "awarder": "University of Hawaii at Manoa",
+      "summary": "Received for school years 2024-2025 and 2025-2026."
     }
   ],
   "references": [
