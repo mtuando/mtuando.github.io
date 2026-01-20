@@ -9,7 +9,7 @@
     "location": { "address": "", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "mtuando", "url": "https://github.com/mtuando" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/changeme" }
+      { "network": "linkedin", "username": "minh-tuan-do", "url": "https://www.linkedin.com/in/minh-tuan-do-b5174b394" }
     ]
   },
   "interests": [
@@ -18,12 +18,12 @@
   ],
   "skills": [
     {
-      "name": "Languages and Frameworks",
+      "name": "Programming Languages",
       "keywords": [ "C", "C++", "Java", "Javascript", "Python", "C#" ]
     },
     {
-      "name": "Toolsets/OS",
-      "keywords": [ "Windows", "Git/Github", "Visual Studio Code", "Eclipse" ]
+      "name": "Toolsets, Frameworks, OS",
+      "keywords": [ "Windows", "Git/Github", "Visual Studio Code", "Eclipse", "SSH Secure Shell" ]
     },
     {
       "name": "Spoken Languages",
@@ -55,12 +55,27 @@
       "website": "",
       "startDate": "2024-08",
       "endDate": "2025-04",
-      "summary": "Write programs for characters's mechanics",
+      "summary": "Write programs for characters's mechanics.",
       "highlights": [
         "Developed core gameplay mechanics and interactive scenes in Unity 2D.",
         "Contributed to the releases of 2 games.",
         "Worked within a programming team of over 10 people and collaborated with art and music teams of around 15 students total.",
         "Implemented 40+ art and audio assets across all games."
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Swap Meet at Aloha Stadium",
+      "position": "Stall Helper",
+      "startDate": "2025-07-12",
+      "endDate": "2025-08-21",
+      "summary": "Aiding a stall of 3 to sell various souvenirs and hats.",
+      "highlights": [
+        "Managed high-volume customer interactions, providing service to around 20 to 25 customers at a time during peak rush hours.",
+        "Contributed an average profit of approximately $1,000 per appearance.",
+        "Involved in end-of-day breakdown and 'load-out' process, ensuring all inventory was secured and the stall area was spotless.",
+        "Monitored stock levels throughout the day and organized displays to attract foot traffic and maximize visibility."
       ]
     }
   ],
@@ -76,6 +91,18 @@
       "date": "2024-2025",
       "awarder": "University of Hawaii at Manoa",
       "summary": "Received for school years 2024-2025 and 2025-2026."
+    },
+    {
+      "title": "Dean's List",
+      "date": "2024",
+      "awarder": "University of Hawaii at Manoa",
+      "summary": "Included for being in top students with highest GPAs for Fall 2024 semester."
+    },
+    {
+      "title": "Seal of Biliteracy",
+      "date": "2024",
+      "awarder": "Hawai'i State Department of Education",
+      "summary": "Awarded for illustrating proficiency in English and Vietnamese."
     }
   ],
   "references": [
