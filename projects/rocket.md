@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
+image: img/rocketLogo.png
 title: "Rocket to the Moon"
 date: 2025
 published: true
