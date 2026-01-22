@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/polyhedronOrbitImg.png
+image: img/polyhedronOrbitImg.jpg
 title: "Polyhedron Orbit"
 date: 2025
 published: true
@@ -11,14 +11,6 @@ labels:
 summary: "A computer graphics displaying polyhedrons orbiting around in a circular motion, a project for ICS 481."
 ---
 
-Vacay is a web application that I helped create as a team project in ICS 415, Spring 2015. The project helped me learn how to design and implement a responsive web site.
+This was the third project I had done for ICS 481. In this project, I have implemented 3D objects, modeling, lighting, and animation using OpenGL API via Common Lisp programming language in order to achieve what is being shown. The 10-second animation potrays randomly generated polyhedrons automatically jumping up and down and rotate randomly in 3D space, and orbiting arond the origin of the plane.
 
-Vacay is implemented using [Meteor](http://meteor.com), a JavaScript application platform. Within two weeks, we created a website that implements several types of reservations including flights, hotels, and car rentals.
-
-In this project I gained experience with full-stack web application design and associated technologies, including [MongoDB](http://mongodb.com) for database storage, the [Twitter Bootstrap](http://getbootstrap.com/) CSS Framework for the user interface, and Javascript for both client and server-side programming. 
-
-Here is some example code to illustrate Simple Schema use:
-
-{% gist 9defa1fb3f4eb593ba5fa9eacedca960 %}
- 
-Source: <a href="https://github.com/theVacay/vacay">theVacay/vacay</a>
+There are also presences of backwards culling and polygon/polyhedron normal line implementations, as well as the ability to use the mouse to freely move around the 3D space.
