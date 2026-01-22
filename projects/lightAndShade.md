@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/cotton/cotton-square.png
+image: img/lightAndShade.jpg
 title: "3D Lighting and Shading with Sphere and Cylinder"
 date: 2025
 published: true
