@@ -9,7 +9,7 @@ labels:
   - Essay
 ---
 
-On a path towards becoming a software engineer, being able to adapt to new technologies is a must. For the record, I only had prior experience with Python and Java programming languages: one was self-taught, the other was from university. The simplicity of Python and the elegance of Java together established the foundation for my knowledge of programming. Variables, data types and structures, functions, conditional statements, etc — lay the basics for any programming language. 
+On a path towards becoming a software engineer, being able to adapt to new technologies is a must. For the record, I only had prior experience with Python and Java programming languages: one was self-taught, the other was from university. The simplicity of Python and the elegance of Java together established the foundation for my knowledge of programming. Variables, data types and structures, functions, conditional statements, etc... — lay the basics for any programming language. 
 
 ## The Script Brothers
 ​
