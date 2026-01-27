@@ -13,7 +13,7 @@
     ]
   },
   "interests": [
-    { "name": "Software Developemnt" },
+    { "name": "Software Development" },
     { "name": "Video Game Development"}
   ],
   "skills": [
@@ -119,6 +119,7 @@
       "summary": "Awarded for illustrating proficiency in English and Vietnamese."
     }
   ],
+  "_comment": "This is a comment.",
   "references": [
     {
       "name": "Available upon request"
