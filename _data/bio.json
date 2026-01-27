@@ -43,7 +43,6 @@
     }, 
     {
       "institution": "Radford High School, Honolulu, HI",
-      "studyType": "High School Diploma",
       "startDate": "2020-08",
       "endDate": "2024-05",
       "courses": [ "Valedictorian" ]
@@ -119,10 +118,4 @@
       "summary": "Awarded for illustrating proficiency in English and Vietnamese."
     }
   ],
-  "_comment": "This is a comment.",
-  "references": [
-    {
-      "name": "Available upon request"
-    }
-  ]
 }
