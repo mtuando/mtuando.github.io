@@ -12,6 +12,8 @@ labels:
 On a path towards becoming a software engineer, being able to adapt to new technologies is a must. For the record, I only had prior experience with Python and Java programming languages: one was self-taught, the other was from university. The simplicity of Python and the elegance of Java together established the foundation for my knowledge of programming. Variables, data types and structures, functions, conditional statements, etc... — lay the basics for any programming language. 
 
 ## The Script Brothers
+
+<img width="100px" class="rounded float-start pe-4" src="../img/js-ts.png">
 ​
 JavaScript is already a popular language within the software development field: it plays as the backbone of the internet, powering everything from simple websites to complex, enterprise-level platforms, and so much more. The complexity of its syntax falls somewhere between Python and Java: easy to understand, yet it maintains the structured, curly-brace logic. As a first-time learner, I was quick to adopt the syntax and semantics. In addition to learning JavaScript, I am also exposed to its sibling, TypeScript. The difference between the two is that TypeScript emphasizes the type of a value and/or variable, compared to a lack of it in JavaScript. Aside from its focus on data types, the syntax between the two is almost the same, allowing me to familiarize myself with TypeScript as quickly as I did with JavaScript from earlier. On a more technical note, TypeScript may be useful when the task mainly involves retrieving data from the user because the data may come in various types, and JavaScript isn’t able to manually configure the data type as TypeScript does. So I think this is a really effective way to configure software based on the user’s information.
 ​
