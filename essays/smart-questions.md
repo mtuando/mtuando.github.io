@@ -25,6 +25,7 @@ Let’s take the following [battleship game](https://stackoverflow.com/questions
 A question about [removing a style element from an inline style using regex](https://stackoverflow.com/questions/30791292/how-do-i-remove-a-style-element-from-an-inline-style-using-regex) rose in popularity due to its negativity. Like the previous example, this question is also a "time sink." The user wanted to remove only one property from his HTML code using regular expressions or regex, coded in C#. Take a look at how he asked this to the community: 
 
 <img width="450px" src="../img/regex_scrnsht.png">
+
 ​
 Raymond highlights a critical distinction in his work: "Describe the goal, not the step". This person failed to adhere to this principle by focusing on a specific technical "step"—using regular expressions—rather than stating their high-level "goal" of modifying a CSS property. The essay also suggests that questions similar to these are basically time wasters in hindsight because they force the community to waste their precious free time to answer the user’s flawed premises rather than actually solving the problem.
 ​
