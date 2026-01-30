@@ -1,99 +1,72 @@
 ---
 layout: essay
 type: essay
-title: "Smart Questions, Good Answers"
+title: "Never ask dumb questions again!"
 # All dates must be YYYY-MM-DD format!
-date: 2015-09-08
-published: false
+date: 2026-01-29
+published: true
 labels:
   - Questions
   - Answers
   - StackOverflow
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/rtfm.png">
-
-## Is there such thing as a stupid question?
-
-I’ve had instructors address a whole class and say, “There’s no such thing as a stupid question.” I now know that is in fact not true because I’ve challenged the statement and received the appropriate dumb-stricken, annoyed look. There are definitely stupid questions, and along with that, usually unhelpful answers. Though we all might be guilty of being callous and making people victim to our poorly formed questions, there are steps we can take to ask smarter questions that hopefully don’t illicit the dreaded “rtfm” or “stfw” response.
-
-## What’s a smart question?
-
-Stack Overflow, a question and answer site for programmers, is a great resource for anyone who may have issues with code or who may simply want to learn new or different methods of doing something. There I found examples of good questions and bad questions, which could probably be improved.
-
-In the following example, we examine the components of a decent question. In this case, the asker is trying to figure out a way to get the date of the previous month in Python.
-
-```
-Q: python date of the previous month
-
-I am trying to get the date of the previous month with python. Here is what i've tried:
-
-str( time.strftime('%Y') ) + str( int(time.strftime('%m'))-1 )
-
-However, this way is bad for 2 reasons: First it returns 20122 for the February of 2012 (instead of 201202) 
-and secondly it will return 0 instead of 12 on January.
-
-I have solved this trouble in bash with:
-
-echo $(date -d"3 month ago" "+%G%m%d")
-
-I think that if bash has a built-in way for this purpose, then python, much more equipped, should provide something 
-better than forcing writing one's own script to achieve this goal. Of course i could do something like:
-
-if int(time.strftime('%m')) == 1:
-    return '12'
-else:
-    if int(time.strftime('%m')) < 10:
-        return '0'+str(time.strftime('%m')-1)
-    else:
-        return str(time.strftime('%m') -1)
-        
-I have not tested this code and i don't want to use it anyway (unless I can't find any other way:/)
-
-Thanks for your help!
-```
-
-While the heading of his question could be better, it does convey what he’s trying to figure out. Usually something as brief as “python date of previous month” is what other users would enter in as search terms on Google, making it easily found. Another good thing about the question is that it’s not just a question. The asker shows what he or she has done and that he or she has put in some effort to answer the question. And while it may not be as important as the question itself, the asker shows courtesy, which does increase the chance of getting an answer.
+Today, billions of people can access vast amounts of information and knowledge without spending their savings. In addition, they can all be accessed within a short prompt for search on the web, and the result will pop up in less than 10 seconds or less. While access to information has improved, challenges in finding the right information still exist. However, before AI's mainstream adoption in 2022, Google searches often failed to yield the desired results. There arrives forums: any medium that allows people from all corners of the globe to be encouraged in exchanging information based on any certain issue that they happen to have. For coders and developers, StackOverflow is the go-to platform.
+​
+StackOverflow is a widely recognized platform in the programming community, known for its extensive Q&A format. But what would be included instead is the importance of the questions and asking questions on the page. Eric Raymond, a prominent figure in the open-source community, emphasizes that the quality of an answer is directly tied to the effort put into the question in his essay, "How To Ask Questions The Smart Way." This means that better questions lead to better responses. The essay explores who defines 'better' and what constitutes a 'better' question.
+​
+## Not so smart questions
+​
+Let’s take the following [battleship game](https://stackoverflow.com/questions/49712980/i-need-help-for-this-program) as an example. The author's post, "I need help with this program," includes the entire problem description and requirements without providing any code or explaining previous attempts. This is not a genuine search for help but rather a request for the community to write the code. Funnily enough, the first comment under this post refuses to help this person because he’s not going to do the asker’s “homework.” Raymond would have categorized the author title to be in the “Stupid” group because it doesn't provide any relevant context for the problem, and would associate it with “time sinks” individuals for the entire post itself.
+​
+A question about [removing a style element from an inline style using regex](https://stackoverflow.com/questions/30791292/how-do-i-remove-a-style-element-from-an-inline-style-using-regex) rose in popularity due to its negativity. Like the previous example, this question is also a "time sink." The user wanted to remove only one property from his HTML code using regular expressions or regex, coded in C#. Take a look at how he asked this to the community: (img here)
+​
+Raymond highlights a critical distinction in his work: "Describe the goal, not the step". This person failed to adhere to this principle by focusing on a specific technical "step"—using regular expressions—rather than stating their high-level "goal" of modifying a CSS property. The essay also suggests that questions similar to these are basically time wasters in hindsight because they force the community to waste their precious free time to answer the user’s flawed premises rather than actually solving the problem.
+​
+## Smart questions
+​
+A great example of a smart question based on Raymond’s criteria on Stack Overflow is the following: [“Why is processing a sorted array faster than processing an unsorted array?”](https://stackoverflow.com/questions/11227809/why-is-processing-a-sorted-array-faster-than-processing-an-unsorted-array) The author behind the most upvoted post of the site simply examined how long the code (in C++) takes to return the sum of an array, both sorted and unsorted. Take a look at the following code snippet:
 
 ```
-A: datetime and the datetime.timedelta classes are your friend.
+int main()
+{
+    // Generate data
+    const unsigned arraySize = 32768;
+    int data[arraySize];
 
-1. find today
-2. use that to find the first day of this month.
-3. use timedelta to backup a single day, to the last day of the previous month.
-4. print the YYYYMM string you're looking for.
+    for (unsigned c = 0; c < arraySize; ++c)
+        data[c] = std::rand() % 256;
 
-Like this:
+    // !!! With this, the next loop runs faster.
+    std::sort(data, data + arraySize);
 
- >>> import datetime
- >>> today = datetime.date.today()
- >>> first = datetime.date(day=1, month=today.month, year=today.year)
- >>> lastMonth = first - datetime.timedelta(days=1)
- >>> print lastMonth.strftime("%Y%m")
- 201202
- >>>
+    // Test
+    clock_t start = clock();
+    long long sum = 0;
+    for (unsigned i = 0; i < 100000; ++i)
+    {
+        for (unsigned c = 0; c < arraySize; ++c)
+        {   // Primary loop.
+            if (data[c] >= 128)
+                sum += data[c];
+        }
+    }
 
+    double elapsedTime = static_cast<double>(clock()-start) / CLOCKS_PER_SEC;
+
+    std::cout << elapsedTime << '\n';
+    std::cout << "sum = " << sum << '\n';
+}
 ```
- 
-The asker received six possible answers, and he or she was successful in inciting discussion from multiple users. The answers themselves were clear and were devoid of the rumored sarcasm and hostility of “hackers.” Since I myself have referenced this page and found it useful, I can confidently say that it is a good question.
+​
+The results showed that it takes 6 times longer to return the sum of an unsorted array than a sorted array. Unconvinced, the same experiment was tested on a different programming language (Java in this case) and still showed a similar result.
+​
+Based on Raymond’s criteria, I would consider this to be a “smart” question. The title gets the reader's attention from the get-go, highlighting the author’s goal to understand the behind the scenes. The question was not vague, and the content was explicit, with almost no grammatical mistakes, using code snippets to illustrate how the results happen to show those values. The discussions under the post allowed the community to share their opinions to what might be the most accurate reasoning, therefore qualify for “thought-provoking problems.” By framing the problem as an invitation to explore the "why" rather than demanding a "how," the asker valued their opportunity for learning, respected experts' limited time, and earned detailed, high-quality answers he seeked after.
+​
+## You Get What You Ask
+​
+Just because you have free will to ask about anything doesn’t mean that you can expect a quality answer for doing the bare minimum. Asking “smart” questions should not be that hard to do: make the question concise and explicit, get straight to the point, and provide value for the asker and the readers. Not only it solve your problem, but also many others who encounter the same problem. “Smart” questions ultimately establish a valuable space for sharing knowledge for everyone, so do not waste the opportunity to be a contributing member of the technical community by simply being a “lazy” asker.  
+​
 
-## The foolproof way to get ignored.
 
-While there are decent questions that benefit everyone, there are those one can ask to create an entirely different effect. In the following example, a user asks how he would, in short, create a desktop application with Facebook.
 
-```
-Q: Facebook Desktop Notifier
-
-I am a beginner programmer that have never used anything other than what's included in a language.
-
-I am trying to create a desktop application that notifies me anytime I get an update onfacebook. 
-How should go about doing this? Thanks in advance.
-
-edit Sorry I was not clear. Is there any way to make a DESKTOP application with facebook?
-```
-
-A simple “yes” would have answered the question, but we know that’s not the sort of answer he or she is looking for. Fortunately, someone kindly responded with a link to Facebook’s developer website. The asker should have done more research on his or her potential project. Then further down the road, he or she could have asked more specific and detailed questions that wouldn’t require a thousand-paged response for a sufficient answer.
-
-## Conclusion
-
-When we rely on others’ generosity and expertise to provide answers to our questions, it should hold that the question we ask should be one that leads to efficient and effective help that not only benefits us, but also the people we ask and others who might ask the same question in the future. Thus, if you have a question… make it a smart one! Asking questions may not always get you the best answer, but asking them in a way that will make others want to answer them will increase the success of finding a good solution and make it a positive experience on all sides.
