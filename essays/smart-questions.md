@@ -11,6 +11,9 @@ labels:
   - StackOverflow
 ---
 
+<img width="1000px" src="../img/smart-questions.jpg">
+
+
 Today, billions of people can access vast amounts of information and knowledge without spending their savings. In addition, they can all be accessed within a short prompt for search on the web, and the result will pop up in less than 10 seconds or less. While access to information has improved, challenges in finding the right information still exist. However, before AI's mainstream adoption in 2022, Google searches often failed to yield the desired results. There arrives forums: any medium that allows people from all corners of the globe to be encouraged in exchanging information based on any certain issue that they happen to have. For coders and developers, StackOverflow is the go-to platform.
 
 ​
