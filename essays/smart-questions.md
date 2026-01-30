@@ -14,9 +14,9 @@ labels:
 Today, billions of people can access vast amounts of information and knowledge without spending their savings. In addition, they can all be accessed within a short prompt for search on the web, and the result will pop up in less than 10 seconds or less. While access to information has improved, challenges in finding the right information still exist. However, before AI's mainstream adoption in 2022, Google searches often failed to yield the desired results. There arrives forums: any medium that allows people from all corners of the globe to be encouraged in exchanging information based on any certain issue that they happen to have. For coders and developers, StackOverflow is the go-to platform.
 
 ​
-StackOverflow is a widely recognized platform in the programming community, known for its extensive Q&A format. But what would be included instead is the importance of the questions and asking questions on the page. Eric Raymond, a prominent figure in the open-source community, emphasizes that the quality of an answer is directly tied to the effort put into the question in his essay, "How To Ask Questions The Smart Way." This means that better questions lead to better responses. The essay explores who defines 'better' and what constitutes a 'better' question.
+StackOverflow is a widely recognized platform in the programming community, known for its extensive Q&A format. But what would be included instead is the importance of the questions and asking questions on the page. Eric Raymond, a prominent figure in the open-source community, emphasizes that the quality of an answer is directly tied to the effort put into the question in his essay, "How To Ask Questions The Smart Way." This means that better questions lead to better responses, and the essay supports as an aid to guide curious minds alike to get the answers they needed.
 ​
-## Not so smart questions
+## Not-so-smart questions
 ​
 Let’s take the following [battleship game](https://stackoverflow.com/questions/49712980/i-need-help-for-this-program) as an example. The author's post, "I need help with this program," includes the entire problem description and requirements without providing any code or explaining previous attempts. This is not a genuine search for help but rather a request for the community to write the code. Funnily enough, the first comment under this post refuses to help this person because he’s not going to do the asker’s “homework.” Raymond would have categorized the author title to be in the “Stupid” group because it doesn't provide any relevant context for the problem, and would associate it with “time sinks” individuals for the entire post itself.
 
@@ -30,7 +30,7 @@ A question about [removing a style element from an inline style using regex](htt
 ​Raymond highlights a critical distinction in his work: “Describe the goal, not the step”. This person failed to comply to this principle by focusing on a specific “step”—using regular expressions—rather than stating their “goal”—modifying a CSS property. The essay also suggests questions similar to these are basically time wasters in hindsight because they force the community to waste their precious free time to answer the user’s flawed premises rather than actually solving the problem.​
 ​
 
-## Smart questions
+## Actual smart questions
 ​
 A great example of a smart question based on Raymond’s criteria on Stack Overflow is the following: “[Why is processing a sorted array faster than processing an unsorted array?](https://stackoverflow.com/questions/11227809/why-is-processing-a-sorted-array-faster-than-processing-an-unsorted-array)” The author behind the most upvoted post of the site simply examined how long the code (in C++) takes to return the sum of an array, both sorted and unsorted. Take a look at the following code snippet:
 
