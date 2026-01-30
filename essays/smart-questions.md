@@ -73,7 +73,6 @@ The results showed that it takes 6 times longer to return the sum of an unsorted
 
 ​
 Based on Raymond’s criteria, I would consider this to be a “smart” question. The title gets the reader's attention from the get-go, highlighting the author’s goal to understand the behind the scenes. The question was not vague, and the content was explicit, with almost no grammatical mistakes, using code snippets to illustrate how the results happen to show those values. The discussions under the post allowed the community to share their opinions to what might be the most accurate reasoning, therefore qualify for “thought-provoking problems.” By framing the problem as an invitation to explore the "why" rather than demanding a "how," the asker valued their opportunity for learning, respected experts' limited time, and earned detailed, high-quality answers he seeked after.
-
 ​
 ## You Get What You Ask
 ​
