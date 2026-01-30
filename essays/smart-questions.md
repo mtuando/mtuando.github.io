@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Never ask dumb questions again!"
+title: "Never ask dumb questions again on StackOverflow!"
 # All dates must be YYYY-MM-DD format!
 date: 2026-01-29
 published: true
@@ -27,7 +27,7 @@ A question about [removing a style element from an inline style using regex](htt
 <img width="450px" src="../img/regex_scrnsht.png">
 
 ​
-Raymond highlights a critical distinction in his work: "Describe the goal, not the step". This person failed to adhere to this principle by focusing on a specific technical "step"—using regular expressions—rather than stating their high-level "goal" of modifying a CSS property. The essay also suggests that questions similar to these are basically time wasters in hindsight because they force the community to waste their precious free time to answer the user’s flawed premises rather than actually solving the problem.
+​Raymond highlights a critical distinction in his work: “Describe the goal, not the step”. This person failed to comply to this principle by focusing on a specific “step”—using regular expressions—rather than stating their “goal”—modifying a CSS property. The essay also suggests questions similar to these are basically time wasters in hindsight because they force the community to waste their precious free time to answer the user’s flawed premises rather than actually solving the problem.​
 ​
 
 ## Smart questions
@@ -70,6 +70,7 @@ The results showed that it takes 6 times longer to return the sum of an unsorted
 
 ​
 Based on Raymond’s criteria, I would consider this to be a “smart” question. The title gets the reader's attention from the get-go, highlighting the author’s goal to understand the behind the scenes. The question was not vague, and the content was explicit, with almost no grammatical mistakes, using code snippets to illustrate how the results happen to show those values. The discussions under the post allowed the community to share their opinions to what might be the most accurate reasoning, therefore qualify for “thought-provoking problems.” By framing the problem as an invitation to explore the "why" rather than demanding a "how," the asker valued their opportunity for learning, respected experts' limited time, and earned detailed, high-quality answers he seeked after.
+
 ​
 ## You Get What You Ask
 ​
