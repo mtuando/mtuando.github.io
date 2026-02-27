@@ -13,6 +13,8 @@ labels:
 
 Designing a website isn’t always easy as everyone seems to assume it is. It requires lots of effort to get all the contents, buttons, images, navigation bars, etc… to be placed according to the developer’s vision. And implementing all of these in pure HTML and CSS codes, although possible, for the person behind doing all of this tedious amount of work, however, would take close to forever to get the first version done. Having to manually configure the correct HTML tags and CSS attributes to fit your needs may lead to massive amounts of lines of code, and it is exhausting to navigate through the files just to find the button you want to change within a field of diverse tags.
 
+<img width="1000px" src="../img/bootstrap.jpg">
+
 At this point, a developer should be asking themself is there a quicker way to get these things done so that they don’t have to sit for hours on end trying to center a div or perfecting their navigation bar. Learning how to build a website should be fun, but should not be about writing repetitive codes that barely make a visual difference. Hence, modern frameworks built for styling websites are introduced, and the one that I’m working and enjoying myself with is Bootstrap 5. It is the equivalent of having a professional designer by your side, guiding your layout and styling choices so you can focus more on the core functionality of your application and not working up from scratch.
 
 # Forming a Shortcut
@@ -36,4 +38,4 @@ Take a following look at this sample HTML code with Bootstrap 5 implemented as a
 </nav>
 ```
 
-
+The functionality of this code is to make the content appear when the dimensions of the website is wide enough, and disappear when they are too small (like the size of a mobile phone for example.) Implementing this with bare CSS would require lots of lines of code since the stylesheet was not built to handle “complex” functionalities like mentioned previously. 
