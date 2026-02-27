@@ -48,14 +48,14 @@ Bootstrap is so convenient that a fully functional website can be built within i
   <figure>
     <img width="500px" 
        src="../img/website_with_css.png" 
-       class="img-thumbnail">
+       class="img-fluid">
     <figcaption><i>A website built with HTML and CSS</i></figcaption>
   </figure>
   
   <figure>
     <img width="500px" 
        src="../img/website_with_bootstrap.png" 
-       class="img-thumbnail">
+       class="img-fluid">
     <figcaption><i>Same website but implemented with Bootstrap and no CSS</i></figcaption>
   </figure>
 </div>
