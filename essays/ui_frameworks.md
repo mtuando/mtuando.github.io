@@ -15,6 +15,8 @@ Designing a website isn’t always easy as everyone seems to assume it is. It re
 
 At this point, a developer should be asking themself is there a quicker way to get these things done so that they don’t have to sit for hours on end trying to center a div or perfecting their navigation bar. Learning how to build a website should be fun, but should not be about writing repetitive codes that barely make a visual difference. Hence, modern frameworks built for styling websites are introduced, and the one that I’m working and enjoying myself with is Bootstrap 5. It is the equivalent of having a professional designer by your side, guiding your layout and styling choices so you can focus more on the core functionality of your application and not working up from scratch.
 
+# Forming a Shortcut
+
 Take a following look at this sample HTML code with Bootstrap 5 implemented as an example:
 
 ```
