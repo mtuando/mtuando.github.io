@@ -13,7 +13,7 @@ labels:
 
 When an architect arrives at an empty plot of land, they don’t immediately use the wood planks to build walls and structure of their building that they imagined while doing their job. Instead, they reach for blueprints: they provide assistance to properly construct the building that would solve all the problems building it may have. How are galvanized steel going to support building stability? How to make stairs and elevators safe? What materials are needed to prevent environmental issues from affecting the interiors and exteriors? And various similar questions. These questions are what architects ask themselves before constructing, and build up with solutions to answer them. 
 
-<img src="../img/construction.webp" class="img-fluid">
+<img src="../img/construction.webp" class="img-fluid" style="display: block; margin-left: auto; margin-right: auto;">
 
 Software engineering operates in a similar manner. When developers are assigned with a project, they need a plan of how they will build their projects over time, instead of doing whatever they want to do not only to keep things organized, but being able to maintain stability of the code base when the instability of their project grows over time. This is where design patterns come into play to operate as a blueprint for a website architecture. They are drawn to capture all problems and solutions, tools needed to make the website works, but can’t code for help's sake: that’s the developer’s responsibility to make it happen! Being able to control and be consistent with the work planned out, just as a builder must adhere to the architect's original vision.
 
