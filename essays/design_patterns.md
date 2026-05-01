@@ -19,7 +19,7 @@ Software engineering operates in a similar manner. When developers are assigned 
 
 # Proper Implementation
 
-The <a href='https://uh-gamelink.vercel.app/'>final project</a> me and my teammates are working on, supports the basis of the architect's blueprint. For instance, when working with files that involve the API, the GET function allows a clear and repeatable structure: authenticate the user, get data, and properly respond to display the right things we wanted to see. 
+The <a href='https://uh-gamelink.vercel.app/'>final project</a> me and my teammates are working on, supports the basis of the architect's blueprint. For instance, when working with files that involve the API, the ```GET``` function allows a clear and repeatable structure: authenticate the user, get data, and properly respond to display the right things we wanted to see. 
 
 ```
 export async function GET() {
@@ -55,7 +55,7 @@ export async function GET() {
 }
 ```
 
-Like an inspector verifies the strength of the structure before the walls go up, the use of auth() command acts as a security perimeter of our Prisma database, ensuring that only authorized "tenants" (users) can access the data within. In the absence of a valid session or email, the code serves as a security gate, freezing all further operations. It keeps the application from failing when someone tries to do something they should not do. By following, the “architect” ensures that our final project is good and safe.
+Like an inspector verifies the strength of the structure before the walls go up, the use of ```auth()``` command acts as a security perimeter of our Prisma database, ensuring that only authorized "tenants" (users) can access the data within. In the absence of a valid session or email, the code serves as a security gate, freezing all further operations. It keeps the application from failing when someone tries to do something they should not do. By following, the “architect” ensures that our final project is good and safe.
 
 By wrapping the logic in a try-catch block, the developer has installed a safety net to retrieve user’s data. If something goes wrong with a part or a connection is lost when getting data, the system does not crash or leave the user in the dark; instead, it handles the surge and calmly returns a 500 status error. This shows that a good architect does not just plan for things to go well—they also design for the "storms". By ensuring every path leads to a defined response in a fragile structure, the developer maintains the integrity of the entire application, allowing future scalability to occur. 
 
