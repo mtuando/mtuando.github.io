@@ -38,7 +38,7 @@ As a person whose English is not their first language, using AI helps refine my 
 
 ## Final project
 
-I did use AI to help fix errors and create code to serve the functionalities necessary for our application. One of the most significant in the application was to be able to connect the project's API to display on the website, and it revolves around creating a folder within the /api directory, and using ```route.ts``` as the file to connect to it using code (for certain sections of the API only). And taking notice of the course, there was no lesson on how to use and implement this file, so the only possible methods I had were to look up tutorials on the web or use AI. While there are a lot of articles, websites, and videos covering how to implement the file, although helpful towards my education, the combined quality of tutorial provided little assistance for me, and so I turn most of my time to AI instead. 
+I did use AI to help fix errors and create code to serve the functionalities necessary for our application. One of the most significant in the application was to be able to connect the project's API to display on the website, and it revolves around creating a folder within the ```/api``` directory, and using ```route.ts``` as the file to connect to it using code (for certain sections of the API only). And taking notice of the course, there was no lesson on how to use and implement this file, so the only possible methods I had were to look up tutorials on the web or use AI. While there are a lot of articles, websites, and videos covering how to implement the file, although helpful towards my education, the combined quality of tutorial provided little assistance for me, and so I turn most of my time to AI instead. 
 
 ## Learning a concept / tutorial
 
@@ -52,7 +52,7 @@ Even though I never asked or answered anyone anything, similar to the previous s
 
 Please refer to the last section for the answer.
 
-## Coding example e.g. “give an example of using Underscore .pluck”
+## Coding example
 
 While being desperate for a solution or to understand the functionality of some command or keyword are when I would be using AI for. 
 
@@ -76,8 +76,6 @@ A good case I can think of is during the Final Project, I encountered a situatio
 
 Around the beginning of working on the Final Project, my team chose to go with a color palette and theme that just doesn’t fit me well. Hence, I turned to my generative AI to create various palettes that closely resembled the theme my team was aiming for. For example, one of the prompts I gave was “give me 5 different color palettes that can replace this because I don’t like it”.
 
-<br />
-
 # Impact on Learning and Understanding
 
 With proper balance on when to and not to use AI, I believe its contribution really strengthens my understanding of concepts, new and old. They managed to explain them easier than what I was taught in class or through online tutorials. Even though I try my best to not involve AI as much as possible, I don’t see any downsides to using without fully relying and manipulating them. Sometimes they don’t give me results that I desired to see, but the chance of that happening was low enough that I could care less about it.
@@ -94,6 +92,14 @@ On more than one occasion, I encountered the issue with limited use of my GPT, w
 
 # Comparative Analysis
 
+Traditional teaching methods remain my priority when it comes to learning new technologies, however, in today’s day and age, integrating AI would also be beneficial if I manage to utilize it efficiently enough. There is no set of boundaries required to use AI, but if one ignores their ability to rely on the tool, then it is the same as learning nothing beforehand.
+
 # Future Considerations
 
+No instructors should demotivate their students into using AI towards studying and building software applications, however, there should be certain boundaries to how much AI one can use and when one should use AI. Then, the balance between human abilities and machinery automata can flow as one.
+
+Students should be able to recognize AI errors, whether on their own or through education. It is not uncommon for students and developers of this field alike, to copy and paste AI generated codes; but not being able to recognize potential errors and malware can seriously damage the progress of a software application. Not all AI is meant to teach people, but the ones that do teach, do not have the same level of accuracy as humans do. 
+
 # Conclusion
+
+AI as a tool really knows its capabilities and excels in many areas. In the realm of software engineering, it can go from fixing small bugs in the code, to potentially recreate a famous website within a short matter of time. However, it drags with potential malware and has been known to leak private information to the public from its own generated code. A student, especially in this field and this period, must be able to distinguish between a solid, secure solution and a "hallucinated" one that just looks about right. AI is a partner in our work, but it shouldn't replace the critical eye and personal responsibility of the human engineer.
