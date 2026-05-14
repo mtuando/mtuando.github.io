@@ -4,7 +4,7 @@ type: essay
 title: "Measuring Effort"
 # All dates must be YYYY-MM-DD format!
 date: 2026-05-05
-published: true
+published: false
 labels:
   - Essay
   - Effort Estimation

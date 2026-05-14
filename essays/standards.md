@@ -4,7 +4,7 @@ type: essay
 title: "Lost in Code (and how to get out)"
 # All dates must be YYYY-MM-DD format!
 date: 2026-02-12
-published: true
+published: false
 labels:
   - Essay
   - Coding Standards

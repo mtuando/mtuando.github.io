@@ -4,7 +4,7 @@ type: essay
 title: "Software Engineering and Fears to Overcome"
 # All dates must be YYYY-MM-DD format!
 date: 2026-01-27
-published: true
+published: false
 labels:
   - Essay
 ---
