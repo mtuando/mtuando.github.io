@@ -27,6 +27,6 @@ Throughout my time in ICS 314 I have come to realize that software engineering i
 
 At the end of the day, these qualities not only teach me proper skills that I may see on the job, but to also build habits and help coordinate a project that has a lot of areas to work on. Configuration Management handles the organization of our project’s code, while IDPM acts similar to a task management tool. Along with various not mentioned concepts, this course has shown me that being a "software engineer" isn't about mastering a specific language—it's about having a reliable system to handle the complexity of building anything great.
 
-<br />
+<hr />
 
 <u>Note:</u> AI (Claude) has been used to generate texts for this essay, sample drafts and organize sentences to convey messages properly.
