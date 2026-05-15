@@ -34,4 +34,4 @@ Looking back, the project taught me various skills outside of coding, such as pr
 
 <a href="https://uh-gamelink.vercel.app/">Deployed Application</a>
 
-<h3><i>Composed on 05/15/2026</i></h3>
+<h6><i>Composed on 05/15/2026</i></h6>
