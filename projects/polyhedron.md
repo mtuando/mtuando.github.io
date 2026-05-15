@@ -4,7 +4,7 @@ type: project
 image: img/polyhedronOrbitImg.jpg
 title: "Polyhedron Orbit"
 date: 2025
-published: true
+published: false
 labels:
   - OpenGL
   - Common Lisp
