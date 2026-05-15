@@ -16,7 +16,7 @@ labels:
 summary: "A web application designed in a group for ICS 314 Software Engineering I."
 ---
 
-<img src="../img/uh-gameLink.png" alt="UH GameLink application interface displaying the main dashboard with navigation menu, user profile section, and game linking features in a modern web design layout">
+<img src="../img/uh-gameLink.png" class="d-flex img-fluid justify-content-center" alt="UH GameLink application interface displaying the main dashboard with navigation menu, user profile section, and game linking features in a modern web design layout">
 
 ## About the Project
 
