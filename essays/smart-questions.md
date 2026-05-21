@@ -4,7 +4,7 @@ type: essay
 title: "Never ask dumb questions again on StackOverflow!"
 # All dates must be YYYY-MM-DD format!
 date: 2026-01-29
-published: true
+published: false
 labels:
   - Questions
   - Answers
