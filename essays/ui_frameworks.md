@@ -4,7 +4,7 @@ type: essay
 title: "Enjoying Bootstrap 5 and Its Simplicity"
 # All dates must be YYYY-MM-DD format!
 date: 2026-02-26
-published: true
+published: false
 labels:
   - Essay
   - UI Frameworks
