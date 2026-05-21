@@ -4,7 +4,7 @@ type: essay
 title: "Software Engineering and Beyond"
 # All dates must be YYYY-MM-DD format!
 date: 2026-05-13
-published: true
+published: false
 labels:
   - Essay
   - Software Engineering
