@@ -4,7 +4,7 @@ type: essay
 title: "Control AI Usage"
 # All dates must be YYYY-MM-DD format!
 date: 2026-05-12
-published: true
+published: false
 labels:
   - Essay
   - Artificial Intelligence
