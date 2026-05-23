@@ -4,7 +4,7 @@ type: project
 image: img/rocketLogoSquare.png
 title: "Rocket to the Moon"
 date: 2025
-published: true
+published: false
 labels:
   - Maya
 summary: "A simple 3D animation developed in Maya for the class ICS 481."

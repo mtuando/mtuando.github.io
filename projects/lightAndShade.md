@@ -4,7 +4,7 @@ type: project
 image: img/lightAndShade.jpg
 title: "3D Lighting and Shading with Sphere and Cylinder"
 date: 2025
-published: true
+published: false
 labels:
   - OpenGL
   - Common Lisp
