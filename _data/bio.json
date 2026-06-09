@@ -14,16 +14,18 @@
   },
   "interests": [
     { "name": "Software Development" },
-    { "name": "Video Game Development"}
+    { "name": "Video Game Development"},
+    { "name": "Computer Networking" },
+    { "name": "Web Development" }
   ],
   "skills": [
     {
       "name": "Programming Languages",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Python", "C#" ]
+      "keywords": [ "C", "Java", "Python", "Javascript", "TypeScript", "HTML", "CSS"]
     },
     {
       "name": "Toolsets, Frameworks, OS",
-      "keywords": [ "Windows", "Git/Github", "Visual Studio Code", "Eclipse", "SSH Secure Shell" ]
+      "keywords": [ "Windows", "Git/Github", "Visual Studio Code", "Unity" ]
     },
     {
       "name": "Spoken Languages",
@@ -38,14 +40,14 @@
       "startDate": "2024-08",
       "endDate": "Present",
       "courses": [
-        "ICS 111, 141, 211, 212, 241, 311, 314, 355"
+        "ICS 111, 141, 211, 212, 241, 311, 314, 355, 464"
       ]
     }, 
     {
       "institution": "Radford High School, Honolulu, HI",
       "studyType": "High School Diploma",
-      "startDate": "2020-08",
-      "endDate": "2024-05",
+      "startDate": "2020",
+      "endDate": "2024",
       "courses": [ "Valedictorian" ]
     }
   ],
