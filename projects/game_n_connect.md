@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/gamelink-square.PNG
+image: img/construction.webp
 title: "GAMEnCONNECT"
 date: 2026
 published: true
